@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agent Secure Access</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <div class="login-container">
+    <h1>Secure Agent Login</h1>
+    <form action="dashboard.html" method="POST">
+      <input type="text" name="agentID" placeholder="Agent ID" required />
+      <input type="password" name="accessCode" placeholder="Access Code" required />
+      <button type="submit">Authenticate</button>
+    </form>
+    <p class="warning">⚠ Unauthorized access is monitored and logged.</p>
+  </div>
+</body>
+</html>
